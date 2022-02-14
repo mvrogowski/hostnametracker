@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hostnametracker"
+version = "0.0.0"
+description = ""
+authors = ["Marcos Vinicius Rogowski <marcos@rogowski.dev>"]
+
+[tool.poetry.dependencies]
+python = "3.10.2"
+
+[tool.poetry.dev-dependencies]
+devtools = "^0.8.0"
+ipython = "^8.0.1"
+pytest = "^7.0.1"
+pytest-pudb = "^0.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
